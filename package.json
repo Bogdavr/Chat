@@ -1,35 +1,22 @@
 {
   "name": "chat",
   "version": "1.0.0",
-  "description": "Chat",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bogdavr/Chat.git"
+  "engines": {
+    "node": "14.x"
   },
-  "keywords": [
-    "NodeJs",
-    "Chat"
-  ],
-  "author": "BogdanOstroveckuy",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bogdavr/Chat/issues"
-  },
-  "homepage": "https://github.com/Bogdavr/Chat#readme",
   "dependencies": {
-    "socket.io": "^4.6.1",
-    "sqlite": "^4.2.0",
-    "sqlite3": "^5.1.6"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server"
+    "cookie": "^0.5.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
   }
 }
