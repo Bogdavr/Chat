@@ -26,6 +26,7 @@ main {
     text-align: center;
     width: 100%;
     font-size: 2rem;
+    background-color: blue;
     background-color: var(--color-primary);
     color: var(--color-white);
     height: var(--header-height);
