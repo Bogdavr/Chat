@@ -28,7 +28,7 @@ main {
     font-size: 2rem;
     background-color: red;
     background-color: var(--color-primary);
-    color: var(--color-grean);
+    color: var(--color-red);
     height: var(--header-height);
     display: flex;
     justify-content: space-around;
