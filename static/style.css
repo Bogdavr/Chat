@@ -26,9 +26,8 @@ main {
     text-align: center;
     width: 100%;
     font-size: 2rem;
-    background-color: red;
     background-color: var(--color-primary);
-    color: var(--color-red);
+    color: var(--color-white);
     height: var(--header-height);
     display: flex;
     justify-content: space-around;
@@ -110,7 +109,7 @@ li {
 }
 
 .register-form__label {
-    color: #fffff;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.25rem;
     padding-top: 1rem;
